@@ -6,20 +6,22 @@ Dependencies:
 
 ### Setup
 ```
-~/Flask-Web-App $ source bin/activate
+$ source bin/activate
 
-(Flask-Web-App) ~/Flask-Web-App $ pip3 install --upgrade pip
+(Flask-Web-App) $ pip3 install --upgrade pip
 
-(Flask-Web-App) ~/Flask-Web-App $ pip3 install flask
+(Flask-Web-App) $ pip3 install flask
 ```
 
-### Run
+____
+
+### Run from CLI
 ```
-(Flask-Web-App) ~/Flask-Web-App $ export FLASK_APP=app && export FLASK_ENV=development
+(Flask-Web-App) $ export FLASK_APP=app && export FLASK_ENV=development
 
-(Flask-Web-App) ~/Flask-Web-App $ python3 init_db.py
+(Flask-Web-App) $ python3 init_db.py
 
-(Flask-Web-App) ~/Flask-Web-App $ flask run --host=0.0.0.0
+(Flask-Web-App) $ flask run --host=0.0.0.0
  * Serving Flask app "app" (lazy loading)
  * Environment: development
  * Debug mode: on
